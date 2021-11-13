@@ -7,7 +7,7 @@ redirect_from:
   - /admin/github-actions/about-using-actions-on-github-enterprise-server
   - /admin/github-actions/about-using-actions-in-your-enterprise
 versions:
-  ghes: '>=2.22'
+  ghes: '*'
   ghae: next
 type: overview
 topics:
@@ -15,6 +15,7 @@ topics:
   - Enterprise
 shortTitle: Add actions in your enterprise
 ---
+
 {% data reusables.actions.enterprise-beta %}
 {% data reusables.actions.enterprise-github-hosted-runners %}
 {% data reusables.actions.ae-beta %}
